@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('images/snow.jpg');
+    height: 100vh;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: top center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.App-main{
+    max-width: 50vh;
+    width: 100%;
+    margin: 100px auto;
+    background-color: rgb(240, 248, 255, 0.6);
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.App-main > * {
+    margin-bottom: 20px ;
+}
+
+.input-box{
+    width: 100%;
+    background-color: rgba(255,255,255,0.6);
+    border: none;
+    outline: none;
+    color: #582233;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    height: 50px;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.input-box:focus{
+    background-color: rgba(255,255,255);
+}
+
+.Weather-body{
+    color: black;
+    padding: 20px;
+    line-height: 2rem;
+    border-radius: 5px;
+    background-color: rgba(255,255,255,0.6);
+    min-height: 50vh;
+}
+
+.location-details{
+    font-weight: bold;
+}
+
+.weather-status{
+    padding: 20px;
+}
+
+.temp{
+    font-size: 45pt;
+    font-weight: 700;
+    margin: 20px 0;
+    text-shadow: 2px 3px rgba(0,0,0,0.3);
+
+}
+
+.min-max, .weather{
+font-size: 12pt;
+font-weight: 600;
+}
